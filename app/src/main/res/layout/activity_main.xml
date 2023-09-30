@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fun_con"
+        android:text="Contact" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fun_cal"
+        android:text="Calender" />
+
+    <Button
+        android:id="@+id/btnCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fun_cam"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btnmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fun_med"
+        android:text="Media" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fun_check"
+        android:text="Check" />
+</LinearLayout>
